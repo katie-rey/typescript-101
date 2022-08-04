@@ -1,11 +1,15 @@
 // Objects as parameters:
+// set key value pairs (first parameter is the key, second parameter is the type!)
 function printName(person) {
     console.log("".concat(person.first, " ").concat(person.last));
 }
 printName({ first: 'Thomas', last: 'Jenkins' });
+// object literal defined inline
 var singer = { first: 'Mick', last: 'Jagger', age: 473, isAlive: true };
 printName(singer);
+//      variable             type                 object with values
 // let coordinate: { x: number; y: number } = { x: 34, y: 2 };
+//                                this is the object type
 // function randomCoordinate(): { x: number; y: number } {
 //   return { x: Math.random(), y: Math.random() };
 // }
