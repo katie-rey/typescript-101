@@ -39,7 +39,6 @@ type SkiSchoolStudent = {
   level: SkillLevel
 }
 
-// **********************************************
 // ******************* PART 5 *******************
 // **********************************************
 // Define a type to represent an RGB color
@@ -60,7 +59,6 @@ type HSLColor = { h: number; s: number; l: number }
 
 let colors: (RGBColor | HSLColor)[] = []
 
-// **********************************************
 // ******************* PART 6 *******************
 // **********************************************
 // Write a function called greet that accepts a single string OR an array of strings
