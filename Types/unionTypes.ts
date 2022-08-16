@@ -52,3 +52,4 @@ mood = 'Sad'
 type DayOfWeek = 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday' | 'Saturday' | 'Sunday'
 
 let today: DayOfWeek = 'Sunday'
+let tomorrow: DayOfWeek = 'Monday'
