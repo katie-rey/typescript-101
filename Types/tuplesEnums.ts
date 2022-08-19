@@ -7,6 +7,7 @@ const rgbColor: number[] = [23, 45, 234, 234]
 // It specifies type and length - only 3 numbers are allowed
 const color: [number, number, number] = [255, 0, 45]
 
+// Example of a tuple
 type HTTPResponse = [number, string]
 
 const goodRes: HTTPResponse = [200, 'OK']
